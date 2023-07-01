@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIT MAX</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <main class="principal">
+        <div class="section-lp" id="home">
+            <header class="header-lp">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>FIT MAX</h1>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="index.html">Página principal</a>
+                    <a href="sobre-nós.html">Sobre nós</a>
+                    <a href="https://api.whatsapp.com/send?phone=5551999341098">Contato</a>
+                </div>
+                <button class="menu-hambu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+            </header>
+            <div class="content-lp">
+                <div class="texto-lp">
+                    <h1>DESAFIE <br> O SEU CORPO</h1>
+                    <h2>A vida começa no final da sua zona de conforto.</h2>
+                    <button class="btn-lp">
+                        <a href="https://richflawlessnanotechnology.edufagundes2005.repl.co/"
+                            target="blank">Inscreva-se</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <main class="main-programas" id="programas">
+
+            <div class="title-programas">
+                <div class="textfield-title-programas">
+                    <h1>Escolha a melhor opção <span>para você</span></h1>
+                </div>
+            </div>
+            <div class="container-programas">
+                <div class="container-left" data-aos="fade-down-right">
+                    <a href="musculacao.html">
+                        <div class="card musculacaocard">
+                            <div class="img-card musculacao">
+                            </div>
+                            <div class="textfield">
+                                <h2>Musculação</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="yoga.html">
+                        <div class="card yogacard">
+                            <div class="img-card yoga">
+                            </div>
+                            <div class="textfield">
+                                <h2>Yoga</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container-right" data-aos="fade-down-left">
+                    <a href="cardio.html">
+                        <div class="card cardiocard">
+                            <div class="img-card cardio">
+                            </div>
+                            <div class="textfield">
+                                <h2>Cárdio</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="nutricao.html">
+                        <div class="card pesocard">
+                            <div class="img-card peso">
+                            </div>
+                            <div class="textfield">
+                                <h2>Nutrição</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </main>
+
+        <section class="section-imc">
+            <div class="container-imc" data-aos="fade-right">
+                <div class="box-imc">
+                    <div class="text-imc">
+                        <h1>Calcule <span>seu imc</span></h1>
+                        <p>O IMC é um cálculo simples que permite avaliar se a pessoa está dentro do peso que é
+                            considerado ideal para a sua altura.</p>
+                    </div>
+                    <div class="conteudo-imc">
+                        <div class="insert">
+                            <label for="peso"></label>
+                            <input type="number" id="peso" placeholder="Peso kg" class="input-peso">
+                            <label for="altura"></label>
+                            <input type="number" id="altura" placeholder="Altura cm" class="input-altura">
+                        </div>
+
+                        <div class="button-imc"><button onclick="calcularImc()">Calcular &rarr;</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-img-imc" data-aos="fade-left">
+
+                <div class="resultado">
+                    <img src="https://cdn-icons-png.flaticon.com/512/571/571685.png?w=740&t=st=1687370002~exp=1687370602~hmac=49fdf568a9fe967e0935aad0a2b173a33472bec83accc50a16b74496f9259964"
+                        alt="">
+
+                    <p>Seu índice de massa corporal é: <span id="resultado"></span></p>
+                    <span id="result" class="result"></span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-produtos" id="produtos">
+            <div class="nos-prod">
+
+                <div class="prod-img">
+                    <img src="assets/img-produtos.png" alt="">
+                </div>
+
+                <div class="sob-prod">
+                    <div class="cad-pod" data-aos="fade-left">
+                        <div class="h1-prod">
+                            <h1>Venha conhecer os nossos <span>produtos</span></h1>
+                        </div>
+                        <div class="text-prod">
+                            <div class="text">
+                                <p>Trabalhamos com as melhores marcas do mercado. Vendemos suplementos, aminoácidos,
+                                    vitaminas, termogênicos, equipamentos e acessórios.</p>
+                            </div>
+                        </div>
+                        <div class="but-prod">
+                            <a href="produtos.html">
+                                <p>Ver Mais</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <hr class="barrinha">
+
+            <div class="cont-f">
+
+                <div class="child1">
+                    <h1>Parceiros</h1>
+
+                    <div class="redes">
+                        <a class="footer-links" target="_blank" href="https://www.adidas.com.br/">Adidas</a>
+                        <a class="footer-links" target="_blank" href="https://www.gsuplementos.com.br/">Growth</a>
+                        <a class="footer-links" target="_blank" href="https://www.blackskullusa.com.br/">Black Skull</a>
+                        <a class="footer-links" target="_blank"
+                            href="https://www.ultrawod.com.br/equipamentos-de-ginastica">Ultrawood</a>
+                        <a class="footer-links" target="_blank"
+                            href="http://daekacompanycombr.andressapereir3.repl.co/">Daeka</a>
+                    </div>
+                </div>
+
+                <div class="child2">
+                    <h1>Mapa do Site</h1>
+
+                    <div class="redes">
+                        <a class="footer-links" href="index.html">Página Principal</a>
+                        <a class="footer-links" href="produtos.html">Produtos</a>
+                        <a class="footer-links" href="sobre-nós.html">Sobre-nós</a>
+                        <a class="footer-links"
+                            href="https://richflawlessnanotechnology.edufagundes2005.repl.co/">Inscreva-se</a>
+                        <a class="footer-links" href="index.html#programas">Programas</a>
+                    </div>
+                </div>
+
+                <div class="child3">
+
+                    <section class="content">
+                        <div class="contato">
+                            <h3>Formulário de contato</h3>
+                            <form class="form" method="post" action="./email.php">
+                                <input type="text" class="field" name="name" placeholder="Nome">
+                                <input type="text" class="field" name="email" placeholder="E-mail">
+                                <textarea class="field" name="message"
+                                    placeholder="Digite sua mensagem aqui."></textarea>
+                                <input class="field" type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <hr class="barrinha2">
+
+            <div class="box">
+                <div class="ed">
+                    <p>Av. Manoel Elias, 2001 - Passo das Pedras, Porto Alegre - RS, 91240-261</p>
+                </div>
+            </div>
+
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
